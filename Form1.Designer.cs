@@ -64,6 +64,7 @@
             txtMessage.Size = new Size(625, 31);
             txtMessage.TabIndex = 2;
             txtMessage.Text = "(여기에 입력하세요)";
+            txtMessage.TextChanged += txtMessage_TextChanged;
             // 
             // btn
             // 
