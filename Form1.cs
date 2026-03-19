@@ -25,5 +25,11 @@ namespace EchoMessenger
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            txtMessage.Clear();
+            lstEcho.Items.Clear();
+        }
     }
 }

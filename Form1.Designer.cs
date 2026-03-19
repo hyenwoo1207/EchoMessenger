@@ -32,6 +32,7 @@
             lstEcho = new ListBox();
             txtMessage = new TextBox();
             btn = new Button();
+            button1 = new Button();
             SuspendLayout();
             // 
             // label1
@@ -59,7 +60,7 @@
             // txtMessage
             // 
             txtMessage.Font = new Font("맑은 고딕", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 129);
-            txtMessage.Location = new Point(12, 341);
+            txtMessage.Location = new Point(12, 326);
             txtMessage.Name = "txtMessage";
             txtMessage.Size = new Size(625, 31);
             txtMessage.TabIndex = 2;
@@ -79,15 +80,29 @@
             btn.UseVisualStyleBackColor = false;
             btn.Click += btn_Click;
             // 
+            // button1
+            // 
+            button1.Font = new Font("맑은 고딕", 12F, FontStyle.Bold, GraphicsUnit.Point, 129);
+            button1.Location = new Point(618, 386);
+            button1.Name = "button1";
+            button1.Size = new Size(182, 52);
+            button1.TabIndex = 4;
+            button1.Text = "대화 기록 삭제";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(9F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.White;
             ClientSize = new Size(800, 450);
+            Controls.Add(button1);
             Controls.Add(btn);
             Controls.Add(txtMessage);
             Controls.Add(lstEcho);
             Controls.Add(label1);
+            ForeColor = Color.FromArgb(0, 192, 192);
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);
@@ -100,5 +115,6 @@
         private ListBox lstEcho;
         private TextBox txtMessage;
         private Button btn;
+        private Button button1;
     }
 }
