@@ -77,5 +77,11 @@ namespace EchoMessenger
             // label2는 폼 디자이너에서 생성된 라벨 컨트롤 이름입니다.
             label2.Text = $"현재대화: {lstEcho.Items.Count}개";
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            txtMessage.Clear();
+            lstEcho.Items.Clear();
+        }
     }
 }

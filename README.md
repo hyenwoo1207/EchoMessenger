@@ -1,11 +1,15 @@
-28깃허브README 작성# (C# 코딩) 에코메신저
-## 개요-C# 프로그래밍학습-1줄소개: 사용자키보드입력을받아서처리하는프로그램
--사용한플랫폼: 
+# (C# 코딩) 에코메신저
+## 개요
+-C# 프로그래밍학습
+-1줄소개: 사용자키보드입력을받아서처리하는프로그램
+-사용한플랫폼:
 -C#, .NET Windows Forms, Visual Studio, GitHub
 
--사용한컨트롤:-Label, TextBox, ListBox, Button
+-사용한컨트롤:
+-Label, TextBox, ListBox, Button
 
--사용한기술과구현한기능:-Visual Studio를이용하여UI 디자인
+-사용한기술과구현한기능:
+-Visual Studio를이용하여UI 디자인
 
 -string 클래스를이용한사용자입력데이터처리
 
@@ -16,24 +20,28 @@
 -실습중에구현한기능들설명
 
 ## 실행화면(과제1)
--과제1코드의실행스크린샷![과제1 실행화면](img/screenshot-1.png)
-<img width="1918" height="996" alt="화면 캡처 2026-03-19 124549" src="https://github.com/user-attachments/assets/d05b3a2b-567b-408f-a034-8a91fb70abcc" />
+-과제1코드의실행스크린샷
 
 -과제내용-Label(표시), TextBox(입력), Button(전송), ListBox(대화창)를적절히배치합니다.
 
-전송버튼클릭시TextBox의텍스트를ListBox의항목(Items)으로추가합니다.
+-전송버튼클릭시TextBox의텍스트를ListBox의항목(Items)으로추가합니다.
 
 -추가직후TextBox의내용을비워(Clear) 다음입력을준비합니다.
 
-# 실행화면(과제2)-과제2코드의실행스크린샷![과제2 실행화면](img/screenshot-2.png)
+# 실행화면(과제2)
+-과제2코드의실행스크린샷
 -과제내용-Label(표시), TextBox(입력), Button(전송), ListBox(대화창)를적절히배치합니다.
-<img width="1920" height="993" alt="화면 캡처 2026-03-19 125049" src="https://github.com/user-attachments/assets/632307ae-caa4-4fa4-a405-4e2735e988b9" />
 
--전송버튼클릭시TextBox의텍스트를ListBox의항목(Items)으로추가합니다.-추가직후TextBox의내용을비워(Clear) 다음입력을준비합니다.
+<img width="1918" height="996" alt="화면 캡처 2026-03-19 124549" src="https://github.com/user-attachments/assets/d05b3a2b-567b-408f-a034-8a91fb70abcc" />
+
+<img width="1920" height="993" alt="화면 캡처 2026-03-19 125049" src="https://github.com/user-attachments/assets/632307ae-caa4-4fa4-a405-4e2735e988b9" />
+<img width="1920" height="993" alt="화면 캡처 2026-03-19 130135" src="https://github.com/user-attachments/assets/ed4a9055-0ec7-4e13-b2a3-3cf76f7176f1" />
+<img width="1912" height="997" alt="화면 캡처 2026-03-19 130152" src="https://github.com/user-attachments/assets/b670ea20-f1db-45dd-a8fd-07b8be308a67" />
+
+-전송버튼클릭시TextBox의텍스트를ListBox의항목(Items)으로추가합니다.
 
 -구현내용과기능설명-입력창에메시지입력하고전송버튼을누르면메시지가리스트박스에표시된다.
 
 -계속반복하면메시지가리스트박스에한줄씩계속추가된다.
 
 -추가내용이많아지면리스트박스에스크롤바가자동으로생기고스크롤된다.
-
