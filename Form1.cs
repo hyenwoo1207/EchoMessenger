@@ -6,5 +6,17 @@ namespace EchoMessenger
         {
             InitializeComponent();
         }
+
+        private void btn_Click(object sender, EventArgs e)
+        {
+            string typed_msg = txtMessage.Text;
+            lstEcho.Items.Add(typed_msg);
+            txtMessage.Clear();
+        }
+
+        private void lstEcho_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
