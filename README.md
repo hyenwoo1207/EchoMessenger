@@ -28,6 +28,9 @@
 # 실행화면(과제2)-과제2코드의실행스크린샷![과제2 실행화면](img/screenshot-2.png)
 -과제내용-Label(표시), TextBox(입력), Button(전송), ListBox(대화창)를적절히배치합니다.
 <img width="1920" height="993" alt="화면 캡처 2026-03-19 125049" src="https://github.com/user-attachments/assets/632307ae-caa4-4fa4-a405-4e2735e988b9" />
+<img width="1920" height="993" alt="화면 캡처 2026-03-19 130135" src="https://github.com/user-attachments/assets/ed4a9055-0ec7-4e13-b2a3-3cf76f7176f1" />
+<img width="1912" height="997" alt="화면 캡처 2026-03-19 130152" src="https://github.com/user-attachments/assets/b670ea20-f1db-45dd-a8fd-07b8be308a67" />
+
 
 -전송버튼클릭시TextBox의텍스트를ListBox의항목(Items)으로추가합니다.-추가직후TextBox의내용을비워(Clear) 다음입력을준비합니다.
 
@@ -36,4 +39,6 @@
 -계속반복하면메시지가리스트박스에한줄씩계속추가된다.
 
 -추가내용이많아지면리스트박스에스크롤바가자동으로생기고스크롤된다.
+
+
 
